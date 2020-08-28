@@ -29,8 +29,10 @@ def plan():
             print('All completed tasks:' )
             print(completed_tasks)   
 
-        else:
+        elif choice == '4':
             print('All incompleted tasks: ')
             print(incompleted_tasks)
 
+        else:
+            print('This not exist.')
 plan()
